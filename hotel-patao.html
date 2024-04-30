@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rede Patão-Hotel</title>
+  <link rel="shortcut-icon" type="image" href="img/logo.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="reserva_eventos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <img class="logo" src="/img/logo.png" alt="logo do posto patão">
+  <h1><span class="blink">rede de postos "posto"</span></h1>
+  <h3 class="title">patos de minas/MG</h3>
+  <nav class="containers">
+    <div class="dropdown" onclick="toggleDropdown()">
+      <button class="dropbtn">início</button>
+      <div class="dropdown-content" id="myDropdown">
+        <ul>
+          <a href="index.html" onclick="funcaoUm()" target="_blank">
+            <li>página principal</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown" onclick="toggleDropdown()">
+      <button class="dropbtn">contatos</button>
+      <div class="dropdown-content" id="myDropdown">
+        <ul>
+          <a href="administração.html" onclick="funcaoUm()" target="_blank">
+            <li>administração</li></a>
+          <a href="hotel-patao.html" onclick="funcaoDois()" target="_blank">
+            <li>hotel</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown" onclick="toggleDropdown()">
+      <button class="dropbtn">restaurante</button>
+      <div class="dropdown-content" id="myDropdown">
+        <ul>
+          <a href="cardapio.html" onclick="funcaoUm()" target="_blank">
+            <li>cardápio</li>
+          </a>
+          <a href="reserva_mesa.html" onclick="funcaoDois()" target="_blank">
+            <li>reservas de mesas</li>
+          </a>
+          <a href="reserva_eventos.html" onclick="funcaoTres()" target="_blank">
+            <li>reserva para eventos</li>
+          </a>
+          <a href="sug.html" onclick="funcaoQuatro()" target="_blank">
+            <li>sugestões e críticas</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown" onclick="toggleDropdown()">
+      <button class="dropbtn">nossos postos</button>
+      <div class="dropdown-content" id="myDropdown">
+        <ul>
+          <a href="posto-br-365.html" onclick="funcaoUm()" target="_blank">
+            <li>posto patão br 365</li>
+          </a>
+          <a href="itamaraty.html" onclick="funcaoDois()" target="_blank">
+            <li>posto itamaraty</li>
+          </a>
+          <a href="maraba.html" onclick="funcaoTres()" target="_blank">
+            <li>posto marabá</li>
+          </a>
+          <a href="afonso-queiroz.html" onclick="funcaoQuatro()" target="_blank">
+            <li>posto afonso queiroz</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown" onclick="toggleDropdown()">
+      <button class="dropbtn">redes sociais</button>
+      <div class="dropdown-content" id="myDropdown">
+        <ul>
+          <a href="http://www.instagran.com" onclick="funcaoUm()" target="_blank">
+            <li>instagran</li>
+          </a>
+          <a href="http://www.facebook.com" onclick="funcaoDois()" target="_blank">
+            <li>facebook</li>
+          </a>
+          <a href="http://twitter.com" onclick="funcaoTres()" target="_blank">
+            <li>twitter</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1>reservas de quartos</h1>
+  <p class="sub">Use nosso site para reservar seu quarto individual, para casais ou quarto duplo, nosso check-in começa ao meio-dia (12 horas) do horário local
+     informe por favor os dados abaixo ou clique aqui no link do <a href="https://wa.me/+5534997072412">WHATSAPP</a>, favor preencha com corretamente para que não haja problemas com sua reserva.</p>
+  <div class="formulario">
+      <input type="text" placeholder="nome ">
+      <input type="tel" placeholder="telefone para contato">
+      <input type="date" placeholder="data">
+      <select name="quarto" >
+        <option value="valor1" selected>tipo de quarto</option>
+        <option value="valor2">quarto individual</option>
+        <option value="valor3" >quarto de casal</option>
+        <option value="valor4">quarto duplo</option>
+      </select>
+      <input type="number" placeholder="quantidade de quartos">
+      <input type="email" placeholder="e-mail para contato">
+      
+      <button>Enviar</button>
+  </div>
+  <p class="obs">OBS: Hotel Patão não se responsabiliza por objetos deixados nos quartos após o check-out, após as limpezas objetos encontrados ficam
+    guardados por 3 meses em nosso "ACHADOS E PERDIDOS", bem como não se responsabiliza por objetos no interior dos veículos estacionados no pátio do posto.
+  Agradecemos a preferência e esperamos que todos tenham uma ótima estadia conosco.</p>
+
+</body>
+<footer>
+  #2024 Rede de Postos "Posto". Todos os direitos reservados.
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="./js/bootstrap.js"> </script>
+</html>

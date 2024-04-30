@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Patão-Posto Itamaraty</title>
+    <link rel="shortcut-icon" type="image" href="img/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="posto-br.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <img class="logo" src="/img/logo.png" alt="logo do posto patão">
+    <h1><span class="blink">rede de postos "patão"</span></h1>
+    <h3 class="title">patos de minas/MG</h3>
+    <nav class="containers">
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">início</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="index.html" onclick="funcaoUm()" target="_blank">
+                        <li>página principal</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">contatos</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="administração.html" onclick="funcaoUm()" target="_blank">
+                        <li>administração</li>
+                    </a>
+                    <a href="hotel-patao.html" onclick="funcaoDois()" target="_blank">
+                        <li>hotel</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">restaurante</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="cardapio.html" onclick="funcaoUm()" target="_blank">
+                        <li>cardápio</li>
+                    </a>
+                    <a href="reserva_mesa.html" onclick="funcaoDois()" target="_blank">
+                        <li>reservas de mesas</li>
+                    </a>
+                    <a href="reserva_eventos.html" onclick="funcaoTres()" target="_blank">
+                        <li>reserva para eventos</li>
+                    </a>
+                    <a href="sug.html" onclick="funcaoQuatro()" target="_blank">
+                        <li>sugestões e críticas</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">nossos postos</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="posto-br-365.html" onclick="funcaoUm()" target="_blank">
+                        <li>posto patão br 365</li>
+                    </a>
+                    <a href="posto-itamaraty.html" onclick="funcaoDois()" target="_blank">
+                        <li>posto itamaraty</li>
+                    </a>
+                    <a href="posto-maraba.html" onclick="funcaoTres()" target="_blank">
+                        <li>posto marabá</li>
+                    </a>
+                    <a href="posto-afonsoQueiroz.html" onclick="funcaoQuatro()" target="_blank">
+                        <li>posto afonso queiroz</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">redes sociais</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="http://www.instagran.com/redepatao" onclick="funcaoUm()" target="_blank">
+                        <li>instagran</li>
+                    </a>
+                    <a href="http://www.facebook.com/redepatao" onclick="funcaoDois()" target="_blank">
+                        <li>facebook</li>
+                    </a>
+                    <a href="http://twitter.com/redepatao" onclick="funcaoTres()" target="_blank">
+                        <li>twitter</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="estrutura">
+            <h2>posto itamaraty</h2>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!--   Bullets do carrossel, se aumentar uma imagem, aumente um li e acrescento o próximo número -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h5 class="contador"> 1 / 4 <h5>
+                                <img src="/img/administração.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="contador"> 2 / 4 <h5>
+                                <img src="/img/restaurante01.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="contador"> 3 / 4 <h5>
+                                <img src="img/restaurante02.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="contador"> 4 / 4 <h5>
+                                <img src="img/restaurante03.jpeg">
+                    </div>
+                </div>
+                <!-- Fecha elementos dentro do carrossel -->
+
+                <!--   Controladores | Botões -->
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"> Previous </span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"> Next </span>
+                </a>
+            </div>
+
+
+            <!--   começa texto  -->
+            <div class="text-mapa">
+                <div class="text">
+                    <p>Localizado no Bairro itamaraty, faz esquina com as principais vias de acesso dos bairros Alvorada
+                        e Nossa Senhora de Fátima, ponto estratégico
+                        para quem andar por aquelas regiões. Possuímos variados tipos de combustíveis e ainda dispomos
+                        de um lava-jato novo, onde você pode abastecer e
+                        ganhar um ticket gratuito abastecendo acima de R$100,00 (cem reais).
+                        Caro cliente sinta-se à vontade para parar, cuidar do seu veículo e aproveitar de nossa
+                        hospitalidade.
+                    </p>
+                </div>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1891.1457867753873!2d-46.52513419559514!3d-18.560889036659614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94aef4b774533887%3A0xfc51276d3e213b09!2sPosto%20de%20Gasolina%20Rio%20Branco!5e0!3m2!1spt-BR!2sbr!4v1714427130129!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        #2024 Rede de Postos "Patão". Todos os direitos reservados.
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="./js/bootstrap.js"> </script>
+
+</html>

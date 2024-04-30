@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Patão-Cardápio</title>
+    <link rel="shortcut-icon" type="image/png" href="img/logo.jpeg.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cardapio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <img class="logo" src="/img/logo.png" alt="logo do posto patão">
+    <h1><span class="blink">rede de postos "patão"</span></h1>
+    <h3 class="title">patos de minas/MG</h3>
+
+    <nav class="containers">
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">início</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="index.html" onclick="funcaoUm()" target="_blank">
+                        <li>página principal</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">contatos</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="administração.html" onclick="funcaoUm()" target="_blank">
+                        <li>administração</li>
+                    </a>
+                    <a href="hotel-patao.html" onclick="funcaoDois()" target="_blank">
+                        <li>hotel</li>
+                    </a>
+                </ul>
+            </div>
+          </div>
+
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">restaurante</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="cardapio.html" onclick="funcaoUm()" target="_blank">
+                        <li>cardápio</li>
+                    </a>
+                    <a href="reserva_mesa.html" onclick="funcaoDois()" target="_blank">
+                        <li>reservas de mesas</li>
+                    </a>
+                    <a href="reserva_eventos.html" onclick="funcaoTres()" target="_blank">
+                        <li>reserva para eventos</li>
+                    </a>
+                    <a href="sug.html" onclick="funcaoQuatro()" target="_blank">
+                        <li>sugestões e críticas</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">nossos postos</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="posto-br-365.html" onclick="funcaoUm()" target="_blank">
+                        <li>posto patão br 365</li>
+                    </a>
+                    <a href="posto-itamaraty.html" onclick="funcaoDois()" target="_blank">
+                        <li>posto itamaraty</li>
+                    </a>
+                    <a href="posto-maraba.html" onclick="funcaoTres()" target="_blank">
+                        <li>posto marabá</li>
+                    </a>
+                    <a href="posto-afonsoQueiroz.html" onclick="funcaoQuatro()" target="_blank">
+                        <li>posto afonso queiroz</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">redes sociais</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="http://www.instagran.com" onclick="funcaoUm()" target="_blank">
+                        <li>instagran</li>
+                    </a>
+                    <a href="http://www.facebook.com" onclick="funcaoDois()" target="_blank">
+                        <li>facebook</li>
+                    </a>
+                    <a href="http://twitter.com" onclick="funcaoTres()" target="_blank">
+                        <li>twitter</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>cardápio do dia</h1>
+    <h2 class="text-explication">Temos almoço (seguindo o cardápio abaixo) e churrasco, servidos diariamente, rodízio servido
+        com as melhores carnes selecionadas e preparadas por nossos colaboradores, com carinho e dedicação
+        para melhor servir nossos clientes.</h2>
+        <h2 class="text-explication">Adicionais favor pedir
+        aos garçons, informar também a preferência pelo rodízio.</h2>
+    
+
+    <main class="data">
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">segunda-feira</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">terça-feira</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">quarta-feira</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">quinta-feira</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">sexta-feira</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">sábado</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <ul class="card">
+                <h2 class="diaSemana">domingo</h2>
+                <ul class="borda">
+                    <li>arroz branco</li>
+                    <li>feijão carioca de caldo</li>
+                    <li>batata cozida no açafrão</li>
+                    <li>salada americana</li>
+                    <li>brócolis (no vapor)</li>
+                    <li>acém (cozido)</li>
+                    <li>peixe frito (empanado)</li>
+                </ul>
+            </ul>
+        </div>
+    </main>
+    <p class="obs">OBS: Restaurante Patão não se responsabiliza por quais tipo de alergias alimentares e intolerâncias
+        que os clientes tenham, todos os nossos alimentos e utensílios são cuidadosamente preparados com a higiene
+        exigida pela Vigilancia Sanitária e a contaminação cruzada pode ocorrer em alguns dos alimentos preparados.</p>
+
+
+</body>
+<footer>
+    #2024 Rede de Postos "Patão". Todos os direitos reservados.
+</footer>
+
+</html>

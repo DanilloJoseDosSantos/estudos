@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Patão-Eventos</title>
+    <link rel="shortcut-icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reserva_eventos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,700&family=Roboto:wght@300;500;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img class="logo" src="/img/logo.png" alt="logo do posto com pato voando">
+    <h1><span class="blink">rede de postos "patão"</span></h1>
+    <h3 class="title">patos de minas/MG</h3>
+    <nav class="containers">
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">início</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="index.html" onclick="funcaoUm()" target="_blank">
+                        <li>página principal</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">contatos</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="administração.html" onclick="funcaoUm()" target="_blank">
+                      <li>administração</li></a>
+                    <a href="hotel-patao.html" onclick="funcaoDois()" target="_blank">
+                      <li>hotel</li>
+                    </a>
+                  </ul>
+            </div>
+          </div>
+
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">restaurante</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="cardapio.html" onclick="funcaoUm()" target="_blank">
+                        <li>cardápio</li>
+                    </a>
+                    <a href="reserva_mesa.html" onclick="funcaoDois()" target="_blank">
+                        <li>reservas de mesas</li>
+                    </a>
+                    <a href="reserva_eventos.html" onclick="funcaoTres()" target="_blank">
+                        <li>reserva para eventos</li>
+                    </a>
+                    <a href="sug.html" onclick="funcaoQuatro()" target="_blank">
+                        <li>sugestões e críticas</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">nossos postos</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="posto-br-365.html" onclick="funcaoUm()" target="_blank">
+                        <li>posto patão br 365</li>
+                    </a>
+                    <a href="posto-itamaraty.html" onclick="funcaoDois()" target="_blank">
+                        <li>posto itamaraty</li>
+                    </a>
+                    <a href="posto-maraba.html" onclick="funcaoTres()" target="_blank">
+                        <li>posto marabá</li>
+                    </a>
+                    <a href="posto-afonsoQueiroz.html" onclick="funcaoQuatro()" target="_blank">
+                        <li>posto afonso queiroz</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            <button class="dropbtn">redes sociais</button>
+            <div class="dropdown-content" id="myDropdown">
+                <ul>
+                    <a href="http://www.instagran.com" onclick="funcaoUm()" target="_blank">
+                        <li>instagran</li>
+                    </a>
+                    <a href="http://www.facebook.com" onclick="funcaoDois()" target="_blank">
+                        <li>facebook</li>
+                    </a>
+                    <a href="http://twitter.com" onclick="funcaoTres()" target="_blank">
+                        <li>twitter</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>reservas para eventos</h1>
+    <p class="sub">Use nosso site para reservar sua(as) mesa(as) para seus eventos, festas de família, confraternização
+        de empresas, almoço executivo entre outros.</p>
+    <div class="formulario">
+        <input type="date" placeholder="data">
+        <input type="text" placeholder="tipo de evento">
+        <input type="number" placeholder="telefone para contato">
+        <input type="text" placeholder="empresa">
+        <input type="number" placeholder="quantidade de convidados">
+        <input type="hour" placeholder="horário do evento">
+        <button>Enviar</button>
+    </div>
+    <p class="obs">OBS: Restaurante Patão não se responsabiliza por quais tipo de alergias alimentares e intolerâncias
+        que os clientes tenham, todos os nossos alimentos e utensílios são cuidadosamente preparados com a higiene
+        exigida pela Vigilancia Sanitária e a contaminação cruzada pode ocorrer em alguns dos alimentos preparados.</p>
+
+</body>
+<footer>
+    #2024 Rede de Postos "Patão". Todos os direitos reservados.
+</footer>
+
+</html>

@@ -1,0 +1,42 @@
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 20px;
+    background-color: rgb(59, 129, 179);
+    border-radius: 12px;
+    box-shadow: 3px 2px 1px rgba(53, 48, 48, 0.847);
+    border-bottom: 5px solid rgb(193, 31, 17);
+}
+
+.diaSemana {
+    font-size: 18px;
+    color: gold;
+    text-decoration: underline;
+
+}
+
+.borda {
+    background-color: rgb(205, 97, 224);
+    color: white;
+    text-shadow: 1px 1px rgb(52, 49, 52);
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 3px 2px 1px rgba(238, 237, 237, 0.445);
+
+}
+
+.text-explication{
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+.obs {
+    font-size: small;
+    margin: 120px;
+}
